@@ -1114,6 +1114,45 @@ export interface InspectorOptions {
 ```
 <!-- END GENERATED config-catalog:@deepseek-ai/dsh-experimental-inspector -->
 
+<!-- BEGIN GENERATED config-catalog:@deepseek-ai/dsh-experimental-opportunity-submission -->
+<a id="deepseek-aidsh-experimental-opportunity-submission"></a>
+
+## `@deepseek-ai/dsh-experimental-opportunity-submission`
+
+- `inject`: `tools` · `skills` · `storageDomain` · `fs` · `workingDirectory` · `userQuestions`
+- `source`: [`packages/experimental/opportunity-submission/src/config.ts:5`](../packages/experimental/opportunity-submission/src/config.ts)
+
+```ts config-catalog
+/** Local processing limits and credentials for existing Lingxi business APIs. */
+export interface Config {
+  /** Existing business API origin; omission permits local import only. */
+  apiBaseUrl?: string
+  /** Existing short-lived business Bearer authorization; the desktop never signs tokens or loads a signing key. */
+  authorizationEnv: string
+  /** Maximum local source bytes read through the configured filesystem. */
+  maxFileBytes: number
+  /** Maximum material rows admitted into one task. */
+  maxRows: number
+  /** Maximum materials sent in one recognition request. */
+  batchSize: number
+  /** Deadline for each enterprise request, in milliseconds. */
+  requestTimeoutMs: number
+  /** Maximum decoded response bytes retained per enterprise request. */
+  maxResponseBytes: number
+  /** Maximum complete canonical tool-result bytes returned to the model. */
+  maxOutputBytes: number
+  /** Maximum issues and material rows returned to the model per status call. */
+  previewRows: number
+  /** Amount in ten-thousand yuan used only when neither user nor service supplies one. */
+  defaultAmount: number
+  /** Formal purchase-mode combination used when the user supplies none. */
+  defaultPurchaseMode: '4-4' | '5-5' | '6-1' | '6-2' | '7-100'
+  /** Days after task creation for the default quotation deadline. */
+  defaultDeadlineDays: number
+}
+```
+<!-- END GENERATED config-catalog:@deepseek-ai/dsh-experimental-opportunity-submission -->
+
 <!-- BEGIN GENERATED config-catalog:@deepseek-ai/dsh-experimental-ptc-runtime-python -->
 <a id="deepseek-aidsh-experimental-ptc-runtime-python"></a>
 
@@ -4664,6 +4703,7 @@ export interface Config {
 | `@deepseek-ai/dsh-experimental-auto-review` | `approval` · `llm` · `permissionPresets` · `sessions` · `tools` · `workingDirectory` | [`packages/experimental/auto-review/src/index.ts`](../packages/experimental/auto-review/src/index.ts) |
 | `@deepseek-ai/dsh-experimental-client-ui-agent-team` | — | [`packages/experimental/client-ui-agent-team/src/index.ts`](../packages/experimental/client-ui-agent-team/src/index.ts) |
 | `@deepseek-ai/dsh-experimental-client-ui-claude-code-mods` | — | [`packages/experimental/client-ui-claude-code-mods/src/index.ts`](../packages/experimental/client-ui-claude-code-mods/src/index.ts) |
+| `@deepseek-ai/dsh-experimental-client-ui-opportunity-submission` | — | [`packages/experimental/client-ui-opportunity-submission/src/index.ts`](../packages/experimental/client-ui-opportunity-submission/src/index.ts) |
 | `@deepseek-ai/dsh-experimental-client-ui-voice-input` | — | [`packages/experimental/client-ui-voice-input/src/index.ts`](../packages/experimental/client-ui-voice-input/src/index.ts) |
 | `@deepseek-ai/dsh-experimental-computer-use-cua-driver-native` | `computerUse` · `tools` · `systemPrompt` | [`packages/experimental/computer-use-cua-driver-native/src/index.ts`](../packages/experimental/computer-use-cua-driver-native/src/index.ts) |
 | `@deepseek-ai/dsh-experimental-session-inspector` | — | [`packages/experimental/session-inspector/src/index.ts`](../packages/experimental/session-inspector/src/index.ts) |

@@ -1,0 +1,34 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/client-ui-opportunity-submission/README.md
+/:
+  en: 7c9d8a026a09c5f9
+  zh: c89abf7deacd295b
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission:
+  en: 0abe41787733669d
+  zh: 567d1a9c3e8d6746
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/summary:
+  en: 8a3d317b1aa18c36
+  zh: 303e472d29753906
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/table-of-contents:
+  en: 53a02256d28826d4
+  zh: 504f7b117d36a203
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/usage:
+  en: d0d0e67b3b7dc56f
+  zh: 144d9c3d52be3132
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/implementation:
+  en: 9e7d11153a0e881b
+  zh: 58f5c4fa6d16931b
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/model-experience:
+  en: 6a86dcf9605e693d
+  zh: cd57c45d6c8e8924
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/model-experience/kv-cache-effect:
+  en: e265d6d524922676
+  zh: 265cd8d2f6ebb011
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/known-limitations-and-deferred-work:
+  en: 9365dc0dca5704d8
+  zh: c133dfff799f4b6d
+/deepseek-ai-dsh-experimental-client-ui-opportunity-submission/known-limitations-and-deferred-work/dev-note:
+  en: 0a1253c6f7b5e8b9
+  zh: 9f56528562c7c914

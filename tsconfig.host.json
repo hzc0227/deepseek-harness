@@ -363,6 +363,7 @@
     { "path": "./packages/session/working-directory" },
     { "path": "./packages/experimental/worktree" },
     { "path": "./packages/experimental/tool-worktree" },
+    { "path": "./packages/experimental/opportunity-submission" },
     { "path": "./packages/session/tool-working-directory" },
     { "path": "./packages/session/session-title-llm" },
     { "path": "./packages/session/session-title-first-prompt-llm" },

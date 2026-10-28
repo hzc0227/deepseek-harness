@@ -108,6 +108,7 @@
     "@deepseek-ai/dsh-experimental-plugin-market-bundle": "workspace:*"
   },
   "devDependencies": {
+    "@deepseek-ai/dsh-experimental-opportunity-submission": "workspace:*",
     "@deepseek-ai/dsh-skill-badge": "workspace:*",
     "@deepseek-ai/dsh-webhook-github": "workspace:*",
     "@deepseek-ai/dsh-webhook": "workspace:*",
@@ -160,7 +161,8 @@
     "@types/ws": "8.18.1",
     "ajv": "^8.20.0",
     "execa": "^10.0.1",
-    "ws": "8.21.3"
+    "ws": "8.21.3",
+    "@deepseek-ai/dsh-experimental-client-ui-opportunity-submission": "workspace:*"
   },
   "exports": {
     "./profile-boot": {

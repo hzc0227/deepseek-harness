@@ -1,0 +1,26 @@
+- insert:
+    - id: opportunity-submission-form
+      name: '@deepseek-ai/dsh-experimental-client-ui-opportunity-submission'
+    - id: opportunity-submission
+      name: '@deepseek-ai/dsh-experimental-opportunity-submission'
+      config:
+        apiBaseUrl: !!js process.env.LINGXI_API_BASE_URL || undefined
+        authorizationEnv: LINGXI_AUTHORIZATION
+    - id: opportunity-submission-expert
+      name: '@deepseek-ai/dsh-agent-preset'
+      config:
+        id: opportunity-submission
+        name: 商机提报专家
+        description: 从本地采购清单完成物料检测、信息补齐与商机提报。
+        plugins:
+          - id: opportunity-submission-skill
+            name: '@deepseek-ai/dsh-tool-skill'
+          - id: opportunity-submission-questions
+            name: '@deepseek-ai/dsh-tool-ask-user'
+          - id: opportunity-submission-persona
+            name: '@deepseek-ai/dsh-persona'
+            config:
+              prefix: >-
+                你是商机提报专家，使用 opportunity-submission Skill 和 opportunity_* 工具完成本地采购清单的商机提报。
+                先读取该 Skill。复用已有任务，使用配置默认值补齐未指定的非关键选项；物料事实不能编造。
+                使用 DSH 标准交互。默认值仅作预填建议，最终由用户填写 opportunity_submit 打开的表单后直接提交，不得代填或代确认。仅真实商机编号返回后报告成功。

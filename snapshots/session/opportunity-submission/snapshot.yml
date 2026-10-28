@@ -1,0 +1,8 @@
+version: 1
+scenario: opportunity-submission
+profile: headless
+composition: opportunity-submission
+recording: authored
+header:
+  class: opportunity-submission
+  pin: true

@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/opportunity-submission/README.md
+/:
+  en: fb5506210a81daeb
+  zh: 467f95d6ecab0cef
+/opportunity-submission:
+  en: 8dfab3a2b96c7d2a
+  zh: 698fd22a51307a85
+/opportunity-submission/summary:
+  en: e337d7216b58a9ca
+  zh: 908bda0e8c895967
+/opportunity-submission/table-of-contents:
+  en: c25b37f17268d893
+  zh: 759566e770838c8a
+/opportunity-submission/use-the-bundle:
+  en: d86c0ec74ac86131
+  zh: dfbdcbbe33733217
+/opportunity-submission/business-execution:
+  en: 82946eb35152501c
+  zh: bc1259bbb7d44e2c
+/opportunity-submission/verification:
+  en: 6ebe1de67ca6d1a2
+  zh: 8469727c1525111b
+/opportunity-submission/dev-note:
+  en: f3c698886ef928a7
+  zh: eaac63c14c20b932
+/opportunity-submission/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/opportunity-submission/model-experience/business-tools-and-task-facts:
+  en: c6f884af8e612be4
+  zh: a65d94f37b588439
+/opportunity-submission/model-experience/business-tools-and-task-facts/what-the-model-sees:
+  en: 4ac84640c8e5e4de
+  zh: e37834db29e63bed
+/opportunity-submission/model-experience/business-tools-and-task-facts/token-effect:
+  en: 36f96366d69dd837
+  zh: 1229994122ae9a92
+/opportunity-submission/model-experience/business-tools-and-task-facts/kv-cache-effect:
+  en: 91c7e8018cf5347e
+  zh: 62f7482e6870977a
+/opportunity-submission/model-experience/on-demand-business-skill:
+  en: be0a4e7aa5c67627
+  zh: 6aa964190549e628
+/opportunity-submission/model-experience/on-demand-business-skill/what-the-model-sees:
+  en: 1b31928d03fbc269
+  zh: 2ae75df5b5250ff9
+/opportunity-submission/model-experience/on-demand-business-skill/token-effect:
+  en: e72c18752a2ab54b
+  zh: e275976c2cc636e9
+/opportunity-submission/model-experience/on-demand-business-skill/kv-cache-effect:
+  en: b7af10f8e195de1f
+  zh: a1f70e5861045dc8
+/opportunity-submission/known-limitations-and-deferred-work:
+  en: bca76dd92e1d48a2
+  zh: 654bd09e1b4c5962

@@ -1,0 +1,3 @@
+- insert:
+    - id: opportunity-submission
+      name: '@deepseek-ai/dsh-experimental-opportunity-submission'
